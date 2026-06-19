@@ -1,0 +1,42 @@
+# Python artifacts
+__pycache__
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache
+.mypy_cache
+.ruff_cache
+*.egg-info
+htmlcov
+.coverage
+
+# Virtualenv
+.venv
+venv
+
+# Local DB / test artifacts
+test.db
+*.sqlite3
+
+# Env files (injected at runtime via docker-compose)
+.env
+.env.*
+!.env.example
+
+# Git
+.git
+.gitignore
+
+# Dist
+dist
+build
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode
+.idea

@@ -1,0 +1,25 @@
+# Dependencies (installed fresh in Docker)
+node_modules
+
+# Build output (rebuilt in Docker)
+dist
+
+# Env files (injected via ARG at build time)
+.env
+.env.local
+.env.*.local
+
+# Git
+.git
+.gitignore
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode
+.idea
+
+# Logs
+*.log
+npm-debug.log*

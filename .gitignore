@@ -1,0 +1,49 @@
+# ── Secrets & local config ─────────────────────────────────────────────────────
+.env
+.env.local
+.env.production
+.env.*.local
+
+# ── Assessment (not for public repo) ──────────────────────────────────────────
+Technical Assessment.md
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+test.db
+*.sqlite3
+htmlcov/
+.coverage
+coverage.xml
+
+# ── Node / Frontend ────────────────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+.pnp
+.pnp.js
+*.tsbuildinfo
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+*.log
